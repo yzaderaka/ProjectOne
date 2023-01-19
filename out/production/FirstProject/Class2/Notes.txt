@@ -1,0 +1,9 @@
+8 type of boxes in java
+Int может содержать только цифры
+Для хранения целых чисел есть 4 вида боксов
+
+if you store whole numbers always use int
+If you store decimal numbers always use double
+If you have to string character you can always use String
+
+Primitive 
