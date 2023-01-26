@@ -9,7 +9,7 @@ public class CatTester {
         cat1.eat();
         cat1.attitude=false;
 
-        System.out.println();
+        System.out.println(cat1.name+" "+cat1.bread);
 
         Cat cat2= new Cat();
         cat2.name="Loki";
