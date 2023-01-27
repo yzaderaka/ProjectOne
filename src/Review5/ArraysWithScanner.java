@@ -12,5 +12,9 @@ public class ArraysWithScanner {
             System.out.println("Please enter name");
             name[i]= scan.next();
         }
+        for (String n:name) {
+            System.out.println("You enter "+n);
+
+        }
     }
 }
