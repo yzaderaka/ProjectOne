@@ -2,10 +2,18 @@ package Review4;
 
 public class DigitalClock {
     public static void main(String[] args) {
-        for (int i = 0; i <=2 ; i++) {
-            for (int j = 0; j <=3; j++) {
-                for (int k = 0; k <=59; k++) {
-                    System.out.println(i+""+j+":"+k);
+        for (int h1 = 0; h1 <= 2; h1++) {
+            for (int h2 = 0; h2 <= 9; h2++) {
+                if (h1 == 2 && h2 == 4) {
+                    break;
+                }
+                for (int m = 0; m <=59; m++) {
+                    if (m<10){
+                        System.out.println(h1+""+h2+":0"+m);
+                    }else {
+                        System.out.println(h1+""+h2+":"+m);
+                    }
+
                 }
 
             }
