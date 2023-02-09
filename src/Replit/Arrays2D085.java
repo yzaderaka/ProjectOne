@@ -19,7 +19,7 @@ public class Arrays2D085 {
             for (int i = 0; i < arr.length ; i++) {
                 for (int j = 0; j <arr[i].length; j++) {
                     if (i%2==0&&j%2==0) {
-                        sum++;
+                        sum=sum+arr[i][j];
 
 
                         }

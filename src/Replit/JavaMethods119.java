@@ -17,15 +17,18 @@ public class JavaMethods119 {
     censorLetter("computer science",'e') ==> "comput*r sci*nc*"
     censorLetter("trick or treat",'t') ==> "*rick or *rea*"
      */
-    String censorLetter(String a, char b){
-        String s=""+b;
-        String str=a;
-        str.replaceAll(s,"*");
-        return str;
-    }
+    String censorLetter(String str, char ch) {
 
+        String newStr = "";
+        newStr = str.replace(ch, '*');
+        System.out.println(newStr);
+        return newStr;
+    }
     public static void main(String[] args) {
-        JavaMethods119 obj=new JavaMethods119();
-        System.out.println(obj.censorLetter("computer science",'e'));
+
+        JavaMethods119 obj = new JavaMethods119();
+        obj.censorLetter("computer science", 'e');
+        obj.censorLetter("trick or treat", 't');
+
     }
 }
