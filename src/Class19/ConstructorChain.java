@@ -1,7 +1,7 @@
 package Class19;
 
 public class ConstructorChain {
-    ConstructorChain(){
+    ConstructorChain() {
         System.out.println("I`m non argument constructor");
     }
     ConstructorChain(String str){

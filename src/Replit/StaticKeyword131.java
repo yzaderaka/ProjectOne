@@ -1,5 +1,6 @@
 package Replit;
 
+
 public class StaticKeyword131 {
     /*
     Write a method header on line two with the following specs:
@@ -16,7 +17,19 @@ public class StaticKeyword131 {
     thirdLetter("hello there") ==> "hltr"
     thirdLetter("technology") ==> "thly"
      */
+    static String thirdLetter(String s) {
+        StringBuilder str=new StringBuilder();
+        char[] arr = s.toCharArray();
+        for (int i = 0; i <arr.length; i++) {
+            if (i%3==0){
+                str.append(arr[i]);
+            }
+        }
+        return str.toString();
+    }
 
-
-
+    public static void main(String[] args) {
+        System.out.println(thirdLetter("hello there")); //"hltr"
+        System.out.println(thirdLetter("technology")); //"thly"
+    }
 }

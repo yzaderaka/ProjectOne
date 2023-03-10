@@ -10,7 +10,7 @@ class Bachelors extends Degree{
 }
 class Masters extends Degree{
     void getPrerequisite(){
-        System.out.println("Tj get a masters Degree we need a Bachelors diploma");
+        System.out.println("To get a masters Degree we need a Bachelors diploma");
     }
 }
 
